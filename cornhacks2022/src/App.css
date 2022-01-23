@@ -51,12 +51,32 @@
   position: relative;
   top: -475px;
   z-index: 1;
+  -webkit-animation: neutralAnim 2s infinite;
 }
 
 .currLevel {
   position: relative;
   top: -625px;
   left: 180px;
+  z-index: 1;
+}
+
+.currHunger {
+  position: relative;
+  top: -653px;
+  left: 280px;
+  z-index: 1;
+}
+.currHappiness {
+  position: relative;
+  top: -645px;
+  left: 175px;
+  z-index: 1;
+}
+.currKnowledge {
+  position: relative;
+  top: -670px;
+  left: 283px;
   z-index: 1;
 }
 
