@@ -54,7 +54,7 @@
   position: relative;
   width: 19vw;
   height: 88vh;
-  top: -459px;
+  top: -298px;
   left: -675px;
   display: inline-flex;
   flex-direction: column;
@@ -173,6 +173,34 @@
   background-color: darkslateblue;
   border-radius: 25px;
   border: 2px solid rebeccapurple;
+}
+
+.upgrade {
+  position: relative;
+  top: -1200px;
+  left: 1074px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  letter-spacing: -0.2px;
+  word-spacing: 1.2px;
+  color: lightsteelblue;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: uppercase;
+  background-color: darkslateblue;
+  border-radius: 25px;
+  border: 2px solid rebeccapurple;
+}
+
+.manual {
+  width: 10vw;
 }
 
 
