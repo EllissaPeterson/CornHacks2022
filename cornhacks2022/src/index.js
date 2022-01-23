@@ -2,21 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import {
-    WelcomePage,
     PlayPage,
 } from "./components";
 
 ReactDOM.render(
-    <Router>
-        <Routes>
-        <Route path="/" element={<WelcomePage />} />
-        <Route path="/play" element={<PlayPage />} />
-        </Routes>
-    </Router>,
+    <PlayPage />,
   document.getElementById('root')
 );
 

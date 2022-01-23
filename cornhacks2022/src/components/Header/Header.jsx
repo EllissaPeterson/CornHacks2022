@@ -7,7 +7,7 @@ function Header() {
         <div className="header">
             <div>
                 <Navbar color="light" expand="false" fixed="top">
-                    <NavbarBrand className="me-auto" href="/play" >//$Code-a-Pet</NavbarBrand>
+                    <NavbarBrand className="me-auto" href="/" >//$Code-a-Pet</NavbarBrand>
                     <NavbarToggler className="me-2" onClick={function noRefCheck(){}}/>
                 </Navbar>
             </div>
