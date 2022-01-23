@@ -14,19 +14,19 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: lightpink;
+  min-height: 9vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
 .App-link {
   color: #61dafb;
 }
+
 
 @keyframes App-logo-spin {
   from {
@@ -37,9 +37,142 @@
   }
 }
 
-.App-header.Challenges {
-  left: 20%;
+.petWindow {
+  position: relative;
+  top: -35px;
+  left: 800px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  z-index: 0;
 }
 
+.completedChallenges {
+  position: relative;
+  width: 19vw;
+  height: 88vh;
+  top: -459px;
+  left: -675px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  background-color: mediumpurple;
+  border-radius: 25px;
+  border: 2px solid rebeccapurple;
+}
+
+.challenges {
+  position: relative;
+  width: 19vw;
+  height: 90vh;
+  top: -245px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  background-color: mediumpurple;
+  border-radius: 25px;
+  border: 2px solid rebeccapurple;
+}
+
+.code {
+  position: relative;
+  top: -1070px;
+  left: -520px;
+  width: 50vw;
+  height: 87vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+  letter-spacing: -0.2px;
+  word-spacing: 1.2px;
+  color: lightsteelblue;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  background-color: darkslateblue;
+  border-radius: 15px;
+  border: 10px solid hotpink;
+}
+
+.catAnimated {
+  position: relative;
+  top: -475px;
+  z-index: 1;
+  -webkit-animation: neutralAnim 2s infinite;
+}
+
+.currLevel {
+  position: relative;
+  top: -626px;
+  left: -54px;
+  z-index: 1;
+  color: hotpink;
+}
+
+.currHunger {
+  position: relative;
+  top: -653px;
+  left: 53px;
+  z-index: 1;
+  color: hotpink;
+}
+.currHappiness {
+  position: relative;
+  top: -644px;
+  left: -53px;
+  z-index: 1;
+  color: hotpink;
+}
+.currKnowledge {
+  position: relative;
+  top: -671px;
+  left: 53px;
+  z-index: 1;
+  color: hotpink;
+}
+
+.play {
+  background-color: lightpink;
+}
+
+.me-auto {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 22px;
+  letter-spacing: -0.2px;
+  word-spacing: 1.2px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: darkslateblue;
+  text-shadow: 2px 2px 0px lightsteelblue;
+  justify-content: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.button {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  letter-spacing: -0.2px;
+  word-spacing: 1.2px;
+  color: lightsteelblue;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: uppercase;
+  background-color: darkslateblue;
+  border-radius: 25px;
+  border: 2px solid rebeccapurple;
+}
 
 
