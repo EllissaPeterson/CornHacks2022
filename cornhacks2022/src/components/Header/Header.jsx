@@ -6,8 +6,8 @@ function Header() {
     return (
         <div className="header">
             <div>
-                <Navbar color="light" expand="false" fixed="top" light>
-                    <NavbarBrand className="me-auto" href="/">Code-a-Pet</NavbarBrand>
+                <Navbar color="light" expand="false" fixed="top">
+                    <NavbarBrand className="me-auto" href="/play" >//$Code-a-Pet</NavbarBrand>
                     <NavbarToggler className="me-2" onClick={function noRefCheck(){}}/>
                 </Navbar>
             </div>

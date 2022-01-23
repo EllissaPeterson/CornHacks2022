@@ -3,6 +3,7 @@ import {Button, Container, ListGroupItem} from 'reactstrap';
 import catTama from '../../../art/cat gotchi.png'
 import catNeutral from '../../../art/catneutral.gif'
 import '../../../App.css';
+import Code from "./Code/Code"
 
 // const store = Redux.createStore(degradeCount)
 
@@ -36,6 +37,7 @@ function PetWindow() {
             <div className="currKnowledge">
                 <h6>Know</h6>
             </div>
+            <Code />
         </div>
     );
 }

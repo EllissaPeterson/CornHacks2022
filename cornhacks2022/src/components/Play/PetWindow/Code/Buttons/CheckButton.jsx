@@ -1,6 +1,6 @@
 import React from "react";
 import { Button } from 'reactstrap';
-import '../../../../App.css';
+import '../../../../../App.css';
 
 function PlayPage() {
     return (

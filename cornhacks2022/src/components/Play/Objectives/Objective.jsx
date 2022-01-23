@@ -5,7 +5,7 @@ import '../../../App.css';
 function Objective() {
     return (
         <div className="objective">
-            <Button color="primary">primary</Button>{' '}
+            <Button className="button" block color="primary">Objective</Button>{' '}
         </div>
     );
 }

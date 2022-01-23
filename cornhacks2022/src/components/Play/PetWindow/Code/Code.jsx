@@ -1,10 +1,10 @@
 import React from "react";
-import '../../../App.css';
+import '../../../../App.css';
 
 function Code() {
     return (
         <div className="code">
-            Code Box
+            Start Coding...
         </div>
     );
 }
